@@ -1,0 +1,22 @@
+# x2j
+
+[![GoDoc](https://img.shields.io/badge/api-reference-blue.svg?style=flat-square)](https://pkg.go.dev/github.com/tidwall/x2j) 
+
+Convert xml to json.
+
+## Installing
+
+```
+go get -u github.com/tidwall/x2j
+```
+
+## Using
+
+Convert an xml byte slice to json
+
+```go
+jsondata, err := x2j.Convert(xmldata)
+if err != nil {
+    // ... your xml is no good
+}
+```
