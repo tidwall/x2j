@@ -14,7 +14,4 @@ go get -u github.com/tidwall/x2j
 
 ```go
 jsondata, err := x2j.Convert(xmldata)
-if err != nil {
-    // ... your xml is no good
-}
 ```
