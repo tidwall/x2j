@@ -12,8 +12,6 @@ go get -u github.com/tidwall/x2j
 
 ## Using
 
-Convert an xml byte slice to json
-
 ```go
 jsondata, err := x2j.Convert(xmldata)
 if err != nil {
